@@ -1,0 +1,28 @@
+.EnquiryList {
+       
+
+    &__header {
+        text-align: center;
+        padding: 16px;
+        font-size: 21px;
+    }
+
+    &__item {
+        border: 1px solid $colour-blue;
+        border-radius: 10px;
+        max-height: 330px;
+        overflow: hidden;
+    }
+    
+    &__text {
+        font-family: $font-primary;
+        font-size: 14px;
+        color: $colour-dark;
+    }
+    
+    &__item hr { 
+        border-color: $colour-blue;
+        margin-bottom: 25px;
+        
+    }
+}

@@ -1,0 +1,57 @@
+.Footer {
+    background-color: $colour-dark;
+    color: $colour-light;
+    min-width: 700px;
+
+    &__header {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    &__hr {
+        border-color: #D9D9D9;
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    &__item--center {
+        text-align: center;
+        margin-left: 50px;
+    
+    }
+
+    &__icons {
+        margin-right: 4em;
+        width: 2em;
+       
+    }
+    
+     &__links {
+        color: $colour-light;
+       
+    }
+    
+    &__copy {
+        color: #D9D9D9;
+        font-size: 14px; 
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    
+.Footer {
+    text-align: center;
+    
+
+    &__icons { 
+       margin-right: 3em;
+    }
+    
+  }
+    
+}
+    
+    

@@ -1,0 +1,100 @@
+.HotelDetail {
+       margin: 0 auto;
+       margin-bottom: 200px;
+       border: none;
+
+    &__header {
+        text-align: center;
+        padding:10px;
+    }
+
+    &__image {
+        max-height: 300px;
+        border-radius: 10px 10px 0 0;
+        margin: 0 auto;
+        display: table;
+    }
+
+    &__item {
+        background-color: $colour-dark;
+        border-radius: 0 0 10px 10px;
+        margin: 0 auto;
+        display: table;
+    }
+    
+    &__text {
+        color: $colour-light;
+    }
+    
+    &__button { 
+        background-color: $colour-blue;
+        font-size: 14px;
+        float: right;
+        margin-right: 40px;   
+    }
+    
+    &__button:hover { 
+        background-color: $colour-headline;
+        border:none;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+  .HotelDetail {
+        display: table;
+        margin: 0 auto;
+        
+
+    &__image {
+        max-height: 210px;
+        max-width: 410px;
+        margin-left: 0;
+    }
+      
+    &__item {
+        max-width: 410px;
+        min-height: 450px;
+        margin-bottom: 100px;
+        margin-left: 0;
+       
+    }
+    
+     &__button { 
+        float: none;
+        display: table;
+        margin: 0 auto;
+        margin-top: 30px;
+          
+    }
+      
+       
+  }
+    
+}
+@media only screen and (max-width: 480px) {
+    
+.HotelDetail {
+        display: table;
+        margin: 0 auto;
+     
+    
+    &__image {
+        max-width: 300px;
+       
+       
+    }
+    
+    &__item {
+       max-width: 300px;
+       margin-bottom: 70px;
+       
+        
+    }
+    
+  }
+    
+}

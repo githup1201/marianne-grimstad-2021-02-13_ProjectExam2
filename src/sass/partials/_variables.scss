@@ -1,0 +1,21 @@
+//fonts
+
+$font-headings: "montserrat", sans-serif;
+$font-primary: "roboto", sans-serif;
+$font-showcase: "roboto light", sans-serif;
+
+
+// colors
+$colour-text: #606264;
+$colour-dark: #263034;
+$colour-light: #FDFCFA;
+$colour-headline: #E6B71D;
+$colour-blue: #1A7ED5;    
+
+// bootstrap
+$theme-colors: (
+    "primary": $colour-blue,
+    "dark": $colour-dark,
+    "light": $colour-light,
+);
+

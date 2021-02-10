@@ -1,0 +1,80 @@
+.HotelItem {
+        min-width: 390px;
+        margin-bottom: 50px;
+        padding: 20px;
+
+    &__header {
+        margin: 15px 0 20px 20px;
+    }
+
+    &__image {
+        max-width: 470px;
+        height: 270px;
+        float: right;
+        border-radius: 10px 0 0 10px;
+        margin-right: -15px;
+    }
+
+    &__description {
+        max-width: 470px;
+        height: 270px;
+        float: left;
+        background-color: $colour-dark;
+        color: $colour-light;
+        border-radius: 0 10px 10px 0;
+        
+    }
+    
+    &__text {
+        margin-left: 20px;
+        margin-bottom: 12px;
+        color: $colour-light;
+    }
+    
+    &__button { 
+        background-color: $colour-blue;
+        font-size: 14px;
+        float: right;
+        margin-right: 40px;   
+    }
+    
+    &__button:hover { 
+        background-color: $colour-headline;
+        border:none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+  .HotelItem {
+        display: table;
+        margin: 0 auto;
+      
+
+    &__image {
+        border-radius: 10px;
+        float: none;
+        height: 210px;
+        min-width: 210px;  
+    }
+      
+    &__description {
+        background-color: $colour-light;
+        color: $colour-text;
+        margin-bottom: 50px;
+    }
+      
+    &__header {
+        margin-left: 10px;
+
+    }
+      
+     &__text {
+        margin-left: 10px;
+        color: $colour-text;
+    }
+      
+    
+  }
+    
+}

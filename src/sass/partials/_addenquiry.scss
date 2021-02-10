@@ -1,0 +1,57 @@
+.AddEnquiry {
+        margin-bottom: 100px;
+
+    &__header {
+        margin-bottom: 30px;
+        margin-top: -25px;
+        text-align: center;
+    }
+
+    &__form {
+        background-color: $colour-light;
+        padding: 80px;
+        border-radius: 10px;
+        max-width: 450px;
+        min-height: 480px;
+        margin: 0 auto;
+    }
+
+    &__label {
+        color: $colour-blue;
+        font-family: $font-headings;
+        font-size: 14px;
+        
+    }
+    
+    &__text {
+        font-family: $font-primary;
+        font-size: 12px;
+    }
+    
+    &__button { 
+        display: table;
+        margin: 0 auto;
+        background-color: $colour-blue;
+        font-size: 14px;
+        margin-top: 30px;
+        
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+.AddEnquiry {
+       
+    &__form {
+       padding: 40px;
+    }
+    
+     &__header {
+        margin-bottom: 20px;
+        margin-top: -10px;
+       
+    }
+    
+  }
+    
+}

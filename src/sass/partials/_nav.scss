@@ -1,0 +1,36 @@
+.Nav {
+    background-color: $colour-light;
+
+
+    &__link {
+        color: $colour-dark;
+        padding: 15px;
+    }
+    
+    &__link:hover {
+        color: $colour-headline;
+        text-decoration: none;
+        
+    }
+
+    &__toggle {
+        border: none;
+        color: $colour-dark;
+    }
+
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+    
+.Nav {
+      
+   &__link {
+        padding: 10px;
+    }
+  
+    
+  }
+    
+}

@@ -1,0 +1,32 @@
+.Hotels {
+        margin-bottom: 100px;
+        margin-top: 80px;
+        border: 1px solid $colour-blue;
+        border-radius: 10px;
+        max-width: 300px;
+        background-color: #ffffff;
+        
+
+    &__header {
+        font-size: 21px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    
+    &__item {
+        list-style-type:none;    
+        
+    }
+    
+    &__link {
+        color: $colour-blue;    
+        
+    }
+    
+     &__link:hover {
+        color: $colour-headline;    
+        
+    }
+ 
+  
+}

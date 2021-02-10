@@ -1,0 +1,62 @@
+.HomeLabels {
+       
+
+
+    &__image {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+        border-radius: 10px;
+        width: 100%;
+        min-width: auto;
+        margin-bottom: 15px;
+    }
+    
+    &__button { 
+        display: table;
+        margin: 0 auto;
+        border: none;
+        background-color: #ffffff;
+        color: $colour-dark;
+        font-size: 14px;
+        margin-top: -30px;
+    }
+    
+    &__button:hover { 
+        background-color: $colour-headline;
+        border:none;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+.HomeLabels {
+      
+   
+    &__item {
+       margin-bottom: 40px;  
+    }
+    
+  }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+.HomeLabels {
+       min-width: 300px;
+       max-width: 440px;
+    
+    &__button {
+       margin-top: 0; 
+    }
+    
+    
+  }
+    
+}
+
+
+

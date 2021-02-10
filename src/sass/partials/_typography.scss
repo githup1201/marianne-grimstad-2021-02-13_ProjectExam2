@@ -1,0 +1,62 @@
+h1 {
+    color: $colour-blue;
+    font-size: 58px;
+    font-family: $font-showcase;
+}
+
+h2 {
+    color: $colour-text;
+    font-size: 36px;
+    font-family: $font-primary;
+}
+
+h3 {
+    font-family: $font-headings;
+    color: $colour-blue;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: $font-headings;
+    font-size: 21px;
+    color: $colour-headline;
+}
+
+h5 {
+    font-family: $font-primary;
+    font-size: 24px;
+    color: $colour-dark;
+}
+
+p {
+    color:$colour-text;
+}
+
+
+#nav-logo {
+    color: $colour-blue;
+    text-transform: uppercase;
+}
+
+
+
+.HomeShowcase__text {
+    color: $colour-dark;
+}
+
+.HomeShowcase__button {
+    font-family: $font-primary;
+    font-size: 16px;
+}
+
+.highlight {
+    color: $colour-headline;
+}
+
+.Footer__header{
+    font-family: futura, sans-serif;
+    font-size: 21px;
+    
+}
+

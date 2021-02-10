@@ -1,0 +1,31 @@
+.Hotel {
+        
+
+    &__header {
+        font-size: 26px;
+        margin: 20px 0 -50px 120px;
+        
+        
+        
+    }
+ 
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+.Hotel {
+       
+    
+    &__header {
+        text-align: center;
+        margin: 20px 0 -50px 0;
+    }
+    
+     &__item {
+        max-width: 100%;
+    }
+    
+  }
+    
+}
