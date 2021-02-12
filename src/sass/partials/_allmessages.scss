@@ -1,5 +1,7 @@
 .Allmessages {
-        min-height: 800px; 
+        min-height: 800px;
+        margin-top: 50px;
+        margin-bottom: 100px;
         
     &__header {
         text-align: center;
@@ -11,6 +13,7 @@
         border: 1px solid $colour-blue;
         border-radius: 10px;
         margin: 0 auto;
+        min-width: 500px;
 
     }
     
@@ -22,7 +25,21 @@
     
     &__item hr { 
         border-color: $colour-blue;
-        margin-bottom: 25px;
+        margin-bottom: 25px;   
+    }
+    
+    &__jumbo { 
+        min-height: 1000px;
         
     }
+}
+
+@media only screen and (max-width: 480px) {
+    
+.Allmessages {
+       margin-top: 100px;
+    
+    
+  }
+    
 }

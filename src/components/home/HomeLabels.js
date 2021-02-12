@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export function HomeLabels() {
    return (
        <>
-            <Col md={6}>
+            <Col xs={12} md={6}>
                     <Container>
                       <Row className="HomeLabels">
                         <Col xs={12} md={6} className="HomeLabels__item">

@@ -10,7 +10,7 @@ function Allmessages() {
    return (
         <>
       
-           <Jumbotron fluid>
+           <Jumbotron fluid className="Allmessages__jumbo">
              <Col md={12}>
                 <Container className="Allmessages">
                     <Card className="Allmessages__item" style={{width: "21rem"}}>

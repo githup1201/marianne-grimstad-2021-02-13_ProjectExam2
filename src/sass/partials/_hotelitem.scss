@@ -1,5 +1,5 @@
 .HotelItem {
-        min-width: 390px;
+        
         margin-bottom: 50px;
         padding: 20px;
 
@@ -47,7 +47,6 @@
 @media only screen and (max-width: 768px) {
     
   .HotelItem {
-        display: table;
         margin: 0 auto;
       
 
@@ -74,6 +73,22 @@
         color: $colour-text;
     }
       
+    
+  }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+.HotelItem {
+       min-width: 320px;
+       max-width: 460px;
+       margin: 0 auto;
+    
+   
+    
+  
+    
     
   }
     

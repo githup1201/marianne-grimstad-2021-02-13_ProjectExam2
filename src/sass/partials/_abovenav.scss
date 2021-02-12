@@ -1,6 +1,7 @@
 .AboveNav {
         background-color: $colour-dark;
-        height: 26px; 
+        height: 26px;
+        min-width: 700px;
 
     &__icons {
         display: inline-block;

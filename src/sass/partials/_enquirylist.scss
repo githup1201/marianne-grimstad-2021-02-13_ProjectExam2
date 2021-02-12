@@ -26,3 +26,18 @@
         
     }
 }
+
+@media only screen and (max-width: 480px) {
+    
+.EnquiryList {
+       
+    
+    &__item {
+       margin: 0 auto;
+       min-width: 430px;
+       max-height: 450px;
+       
+    }
+    
+  }
+}

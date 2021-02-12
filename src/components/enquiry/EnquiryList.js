@@ -12,7 +12,6 @@ function EnquiryList() {
    return (
       <>
             <Container className="EnquiryList" >
-               
                    <Card className="EnquiryList__item" style={{width: "21rem"}}>
                     <Card.Body className="EnquiryList__text">
                        <NavLink to="/admin/enquiries">

@@ -1,7 +1,6 @@
 .HotelDetail {
-       margin: 0 auto;
-       margin-bottom: 200px;
-       border: none;
+        margin: 0 auto;
+        border: none;
 
     &__header {
         text-align: center;
@@ -20,6 +19,8 @@
         border-radius: 0 0 10px 10px;
         margin: 0 auto;
         display: table;
+        margin-bottom: 100px;
+        
     }
     
     &__text {
@@ -45,21 +46,24 @@
 @media only screen and (max-width: 768px) {
     
   .HotelDetail {
-        display: table;
         margin: 0 auto;
-        
+        display: table;
+       
 
     &__image {
+        max-width: 500px;
         max-height: 210px;
-        max-width: 410px;
-        margin-left: 0;
+        margin: 0 auto;
+       
     }
       
     &__item {
-        max-width: 410px;
+        max-width: 500px;
         min-height: 450px;
         margin-bottom: 100px;
-        margin-left: 0;
+        margin: 0 auto;
+        margin-bottom: 100px;
+       
        
     }
     
@@ -78,19 +82,20 @@
 @media only screen and (max-width: 480px) {
     
 .HotelDetail {
-        display: table;
         margin: 0 auto;
+        margin-top: 50px;
      
     
     &__image {
-        max-width: 300px;
-       
-       
+        max-width: 470px;
+        margin: 0 auto;
+        
     }
     
     &__item {
-       max-width: 300px;
-       margin-bottom: 70px;
+        max-width: 470px;
+        margin: 0 auto;
+        margin-bottom: 150px;
        
         
     }

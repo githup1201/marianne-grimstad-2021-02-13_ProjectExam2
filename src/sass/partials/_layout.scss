@@ -1,11 +1,15 @@
 * {
     box-sizing: border-box;
+
 }
 
 html,
 body {
     height: 100%;
     background-color: $colour-light;
+    min-width: 690px;
+    width: 100%;
+    
 }
 
 body {
@@ -23,10 +27,13 @@ body {
     padding-top: 50px;
 }
 
+
+
 .jumbotron  {
     background-color: $colour-blue;
     margin-bottom: 0;
-    min-width: 430px;
+    width: 100%;
+    min-width: 700px;
  
 }
 
@@ -38,6 +45,7 @@ body {
     border-radius: 0;
     width: 100%;
     margin-bottom: 0;
+    min-width: 700px;
 }
 
 .Logout {
@@ -48,10 +56,18 @@ body {
     border: none;
 }
 
-
-
-.HomeText {
-    min-width: 390px;
+@media only screen and (min-width: 768px) {
+    
+  html,
+body {
+    min-width: 1250px;
+    
+    
+ }
+       
+    
 }
+
+
 
 

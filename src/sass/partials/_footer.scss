@@ -1,7 +1,8 @@
 .Footer {
-    background-color: $colour-dark;
-    color: $colour-light;
-    min-width: 700px;
+        background-color: $colour-dark;
+        color: $colour-light;
+        min-width: 700px;
+        margin-bottom: 0;
 
     &__header {
         margin-top: -20px;
@@ -18,13 +19,11 @@
     &__item--center {
         text-align: center;
         margin-left: 50px;
-    
     }
 
     &__icons {
         margin-right: 4em;
-        width: 2em;
-       
+        width: 2em;  
     }
     
      &__links {
@@ -44,11 +43,6 @@
     
 .Footer {
     text-align: center;
-    
-
-    &__icons { 
-       margin-right: 3em;
-    }
     
   }
     

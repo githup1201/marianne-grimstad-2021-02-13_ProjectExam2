@@ -1,5 +1,5 @@
 .AddMessage {
-        margin-bottom: 100px;
+        margin-top: 50px;
 
     &__header {
         margin-bottom: 30px;
@@ -33,7 +33,11 @@
         margin: 0 auto;
         background-color: $colour-blue;
         font-size: 14px;
-        margin-top: 30px;
+        margin-top: 30px;   
+    }
+    
+    &__jumbo { 
+       min-height: 1000px;
         
     }
 }
@@ -41,14 +45,15 @@
 @media only screen and (max-width: 480px) {
     
 .AddMessage {
+       margin-top: 100px;
        
     &__form {
        padding: 40px;
     }
     
-     &__header {
-        margin-bottom: 20px;
-        margin-top: -10px;
+    &__header {
+       margin-bottom: 20px;
+       margin-top: -10px;
        
     }
     

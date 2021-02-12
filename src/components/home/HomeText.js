@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 export function HomeText() {
    return (
        <>
-             <Col className="HomeText">
+             <Col md={6} className="HomeText">
                 <Container>  
                     <h3 className="HomeText__title">About us</h3>
                     <h2 className="HomeText__header">Holidaze <span className="highlight">Bergen</span></h2>

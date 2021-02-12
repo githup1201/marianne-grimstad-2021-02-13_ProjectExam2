@@ -9,7 +9,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 function Allenquiries() {
    return (
         <>
-           <Jumbotron fluid>
+           <Jumbotron fluid className="Allenquiries__jumbo">
              <Col md={12}>
                 <Container className="Allenquiries">
                     <Card className="Allenquiries__item" style={{width: "21rem"}}>

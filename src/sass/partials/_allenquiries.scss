@@ -1,5 +1,6 @@
 .Allenquiries {
-       min-height: 600px;  
+       min-height: 600px;
+       margin-top: 50px;
 
     &__header {
         text-align: center;
@@ -11,6 +12,7 @@
         border: 1px solid $colour-blue;
         border-radius: 10px;
         margin: 0 auto;
+        min-width: 500px;
     }
     
     &__text {
@@ -21,7 +23,21 @@
     
     &__item hr { 
         border-color: $colour-blue;
-        margin-bottom: 25px;
+        margin-bottom: 25px;   
+    }
+    
+    &__jumbo { 
+       min-height: 1000px;
         
     }
+}
+
+@media only screen and (max-width: 480px) {
+    
+.Allenquiries {
+       margin-top: 100px;
+    
+    
+  }
+    
 }

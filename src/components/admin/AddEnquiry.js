@@ -32,7 +32,7 @@ function AddEnquiry() {
     return (
        <>
         
-            <Jumbotron fluid>
+            <Jumbotron fluid className="AddEnquiry__jumbo">
               <Container className="AddEnquiry">
                 <Form onSubmit={handleSubmit(onSubmit)} className="AddEnquiry__form">
                     <h2 className="AddEnquiry__header">Enquiry<span className="highlight">Form</span></h2>

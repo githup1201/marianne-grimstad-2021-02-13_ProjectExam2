@@ -29,7 +29,7 @@ function AddMessage() {
     return (
        <>
         
-            <Jumbotron fluid>
+            <Jumbotron fluid className="AddMessage__jumbo">
               <Container className="AddMessage">
                 <Form onSubmit={handleSubmit(onSubmit)} className="AddMessage__form">
                     <h2 className="AddMessage__header">Contact<span className="highlight">Form</span></h2>

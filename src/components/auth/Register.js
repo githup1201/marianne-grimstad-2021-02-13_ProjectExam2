@@ -6,6 +6,7 @@ import Form from "react-bootstrap/Form";
 import { AuthContext } from "../../context/AuthContext";
 import Container from "react-bootstrap/Container";
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Col from "react-bootstrap/Col";
 
 function Register() {
     const { register, handleSubmit } = useForm();
@@ -21,8 +22,9 @@ function Register() {
 
     return (
         <>
-            <Jumbotron fluid>
-              <Container className="Register">
+            <Jumbotron fluid className="Register__jumbo">
+              <Container>
+                <Col md={12} className="Register">
                 <Form onSubmit={handleSubmit(onSubmit)} className="Register__form">
                     <h2 className="Register__header">Login<span className="highlight">Form</span></h2>
                     <Form.Group className="Register__item">
@@ -35,6 +37,7 @@ function Register() {
                     </Form.Group>
                         <Button type="submit" className="Register__button">Submit</Button>
                 </Form>
+                </Col>
               </Container>
             </Jumbotron> 
         </>

@@ -1,6 +1,6 @@
 .Nav {
-    background-color: $colour-light;
-
+       background-color: $colour-light;
+       min-width: 600px;
 
     &__link {
         color: $colour-dark;
@@ -16,6 +16,7 @@
     &__toggle {
         border: none;
         color: $colour-dark;
+        
     }
 
 
@@ -23,7 +24,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    
+   
 .Nav {
       
    &__link {

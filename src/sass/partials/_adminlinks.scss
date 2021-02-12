@@ -32,9 +32,12 @@
 @media only screen and (max-width: 480px) {
     
 .AdminLinks {
-       
+      
+    
     &__item {
-        
+       margin: 0 auto;
+       min-width: 430px;
+       min-height: 470px;
        
     }
     

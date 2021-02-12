@@ -1,7 +1,6 @@
 .HomeLabels {
        
 
-
     &__image {
         background-repeat: no-repeat;
         background-position: center center;
@@ -33,24 +32,39 @@
 @media only screen and (max-width: 768px) {
     
 .HomeLabels {
-      
+       min-width: 500px;
+       max-width: 600px;
+       margin-left: -20px;
+       padding: 20px;
    
     &__item {
-       margin-bottom: 40px;  
+       margin-bottom: 40px;
+       margin-left: -16px;
+        
+    }
+    
+ 
     }
     
   }
     
-}
+
 
 @media only screen and (max-width: 480px) {
     
 .HomeLabels {
        min-width: 300px;
        max-width: 440px;
+       margin: 0 auto;
+    
     
     &__button {
        margin-top: 0; 
+    }
+    
+    &__item {
+       margin-left: 0;
+        
     }
     
     

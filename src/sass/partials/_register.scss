@@ -1,5 +1,5 @@
 .Register {
-        margin-bottom: 100px;
+         margin-top: 50px;
 
     &__header {
         margin-bottom: 30px;
@@ -34,6 +34,11 @@
         background-color: $colour-blue;
         font-size: 14px;
         margin-top: 30px;
+        
+    }
+    
+    &__jumbo {
+        min-height: 1000px;
         
     }
 }
